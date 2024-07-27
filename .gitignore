@@ -1,0 +1,25 @@
+# Ignore executable files
+*.exe
+*.so
+*.dylib
+*.dll
+
+# Ignore Cargo-specific files
+/target/
+/**/target/
+
+# Ignore editor-specific files
+**/*.swp
+**/*.swo
+**/*~
+**/*.sublime-project
+**/*.sublime-workspace
+.idea/
+/*.vscode/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore Rust logs
+*.log
